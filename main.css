@@ -5,6 +5,8 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 ul,
@@ -26,5 +28,40 @@ li {
   align-items: center;
   background: #444;
   min-height: 100vh;
+}
+
+.cards {
+  width: 120rem;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.cards__item {
+  position: relative;
+  background: #fff;
+  padding: 2rem 3.5rem 3.5rem;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.cards__item:nth-child(1) {
+  background: linear-gradient(45deg, #036eb7, #64eaff);
+}
+
+.cards__item:nth-child(2) {
+  background: linear-gradient(45deg, #e91e63, #ed55ff);
+}
+
+.cards__item:nth-child(3) {
+  background: linear-gradient(45deg, #086d35, #00ff32);
+}
+
+.cards__item:nth-child(4) {
+  background: linear-gradient(45deg, #f05a4f, #f4c030);
 }
 /*# sourceMappingURL=main.css.map */
