@@ -4,6 +4,12 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 *,
@@ -12,5 +18,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #444;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
