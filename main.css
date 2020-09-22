@@ -40,6 +40,18 @@ li {
   padding: 1rem;
 }
 
+.cards__title {
+  font-size: 7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cards__title_small {
+  font-size: 2.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  border-bottom: dotted 2px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+}
+
 .cards__item {
   position: relative;
   background: #fff;
@@ -50,18 +62,18 @@ li {
 }
 
 .cards__item:nth-child(1) {
-  background: linear-gradient(45deg, #036eb7, #64eaff);
+  background: linear-gradient(120deg, #0465a7, #3ce5ff);
 }
 
 .cards__item:nth-child(2) {
-  background: linear-gradient(45deg, #e91e63, #ed55ff);
+  background: linear-gradient(120deg, #b8164c, #fa55f2);
 }
 
 .cards__item:nth-child(3) {
-  background: linear-gradient(45deg, #086d35, #00ff32);
+  background: linear-gradient(120deg, #075a2c, #0bfd3c);
 }
 
 .cards__item:nth-child(4) {
-  background: linear-gradient(45deg, #f05a4f, #f4c030);
+  background: linear-gradient(120deg, #c93a30, #fac126);
 }
 /*# sourceMappingURL=main.css.map */
